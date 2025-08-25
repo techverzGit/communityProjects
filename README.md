@@ -1,2 +1,189 @@
-# communityProjects
-projects
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping site in India : Shop online for Mobiles,Watches,Books,Shoes and more</title>
+    <link rel="stylesheet" href="Amazon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     
+  </head>
+<body>
+
+  <style></style>
+  <div class="navbarMain">
+    <div>
+    <img class="Icon border"  src="amazon_logo.png" alt="Amazon Logo">
+    </div>
+  
+    <div style="display:flex" >
+      <div><i id="locIcon" class="fa-solid fa-location-dot"></i></div>
+      <div>
+       <p class="navbar1 border">Delivering to Mumbai 400001</p>
+       <p class="navbar2 border"><b>Update Location</b></p>
+      </div>
+    </div>
+    <div style="display:flex;" >
+        <span>
+           <select id="mainSel">
+              <option>ALL</option>
+              <option value="AlexaVal">Alexa Value</option>
+              <option value="AmazonDev">Amazon Devices</option>
+              <option value="AmazFash">Amazon Fashion</option>
+              <option value="AmazonDev">Amazon Fresh </option>
+              <option value="AmazFash">Amazon Prime</option>
+              <option value="AmazonDev">Amazon Clothing</option>
+              <option value="AmazFash">Amazon Grocery</option>
+              <option value="AmazonDev">Amazon Transports </option>
+              <option value="AmazFash">Amazon Web Services</option>
+              <option value="AmazonAccs">Amazon Accesories</option>
+              <option value="AmazMeat">Amazon Meat</option>
+              <option value="AmazonNet">Amazon Networks</option>
+          </select>
+        </span>
+
+       <span>
+         <label for="Search"></label>
+         <input type="text" id="Search"  placeholder="Search Amazon.in">
+       </span>
+
+       <span><i id="SearchButton" class="fa-solid fa-magnifying-glass"></i></span>
+
+       <div>
+      
+         <p class="navbar3">Hello,sign in</p>
+         <p class="navbar4"><b>Accounts & Lists</b></p>
+      
+         <!--      
+          <i id="caret" class="fa-solid fa-caret-down"></i> -->
+       </div>
+        
+        <!-- <select id="secSel"></select> -->
+       </div>
+
+      <diV>
+        <p class="navbar5">Returns</p>
+        <p class="navbar6"><b>& Orders</b></p>
+      </div>
+      
+      <div class="cart border">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <b>Cart</b>
+      </div>
+       
+    </div>
+ </div>
+
+  <div class="afternav " style="display:flex; justify-content:space-evenly;">
+    <div class="border"><a href=" "><i id="sidebar" class="fa-solid fa-bars"></i>ALL</a></div>
+    <div class="border"><a href=" ">Fresh</a></div>
+    <div class="border"><a href=" ">MX Player</a></div>
+    <div class="border"><a href=" "> Sell</a></div>
+    <div class="border"><a href=" ">Best Sellers</a></div>
+    <div class="border"><a href=" ">Mobiles</a></div>
+    <div class="border"><a href=" ">Prime</a></div>
+    <div class="border"><a href=" ">Today's List</a></div>
+    <div class="border"><a href=" ">Customer Service</a></div>
+    <div class="border"><a href=" ">New Releases</a></div>
+    <div class="border"><a href=" ">Fashion</a></div>
+    <div class="border"><a href=" ">Amazon Pay</a></div>
+    <div class="border"><a href=" ">Electronics</a></div>
+    <div class="border"><a href=" ">Home & Kitchen</a></div>
+    <div class="border"><a href=" ">Computers</a></div>
+    <div class="border"><a href=" ">Cars & Motorbikes</a></div>
+ </div>
+
+ <!-- hero section -->
+ <div class="slideshow"> 
+   <img src="modifiedhero.png" alt="picture 0" width="1600px">
+   <!-- <img src="amazon her2.jpg" alt="picture 1">
+   <img src="amazon her3.jpg" alt="picture 2">
+   <img src="amazon her4.jpg" alt="picture 3">
+   <img src="amazon her5.jpg" alt="picture 4"> -->
+ </div>
+
+ <!-- shop section -->
+   <!--part 1  -->
+ <div class="maincont1">
+   <diV class="box1 box" >
+     <h2> Appliances for your home | Up to 55% off</h2>
+     <img class="p" src="R1B1P1.jpg" alt="Ac">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <img class="p" src="R1B1P2.jpg" alt="refri">
+     <p class="names">Air conditioners &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Refrigirators</p>
+     <br><img class="p" src="R1B1P3.jpg" alt="micro">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <img class="p" src="R1B1P4.jpg" alt="washMachine">
+     <p class="names">Microwaves &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Washing machines</p>
+     <p><a class="p" href="#">See more</a></p>
+   </diV>
+
+   <div class="box2 box">
+     <h2> 400+ New Launches | Prime Day | 12 - 14 July</h2>
+     <img class="p p2" src="R1B2P1.jpg" alt="prime">
+     <br><br><p><a class="p" href="#">See all offers</a></p>
+   </div>
+
+   <div class="box3 box">
+     <h2>Revamp your home in style</h2>
+     <img class="p" src="R1B3P1.jpg" alt="bedsheet">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <img class="p" src="r1b3p2.jpg" alt="artifacts">
+      <p class="names">Cushions, Bedsheets & more &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Figureness, vases & more</p>
+      <br>
+     <img class="p" src="r1b3p3.jpg" alt="Storage">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <img class="p" src="r1b3p4.jpg" alt="Light">
+     <p class="names">Home Storage  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lightning Solutions</p>
+     <br><p><a class="p" href="#">Explore all</a></p>
+   </div>
+
+   <div class="box4 box">
+     <h2>PlayStation 5 Slim & Accessories | No Cost EMI*</h2>
+     <img class="p" src="R1B4P1.jpg" alt="gaming">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <img class="p" src="r1b4p2.jpg" alt="gaming">
+     <p class="names">PS5 Slim digital edition &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PS5 Slim disc edition</p>
+     <br>
+     <img class="p" src="R1B4P3.jpg" alt="gaming">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <img class="p" src="r1b4p4.jpg" alt="gaming">
+     <p class="names">PS5 Slim  fortnite digital edition &nbsp;&nbsp;&nbsp; PS5 DualSense controller</p>
+     <p><a class="p" href="#">See all deals</a></p>
+   </div>
+ </div>
+  <!-- part 2 -->
+   <br>
+   <div class="maincont2">
+   <diV class="box1 box" >
+     <h2>Buy 2 get 10% off freebies & more offers</h2>
+     <img class="r2" src="r2b1.jpg" alt="dryfruits">
+     <br><br><p><a class="p" href="#">See all offers</a></p>
+   </diV>
+   <div class="box2 box">
+    <h2>Up to 70% off | Deals on mobile accessories</h2>
+     <img class="r2" src="r2b2.jpg" alt="mobaccse">
+     <br><br><p><a class="p" href="#">See all offers</a></p>
+   </div>
+   <div class="box3 box">
+    <h2>Up to 60% off | Amazon<br> renewed</h2>
+     <img class="r2" src="r2b3.jpg" alt="laptops">
+     <br><br><p><a class="p" href="#">See all offers</a></p>
+   </div>
+
+   <div class="box4 box">
+     <h2>Up to 70% off | Deals on outdoor toys</h2>
+      <img class="p" src="R2B4P1.jpg" alt="bedsheet">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <img class="p" src="r2b4p2.jpg" alt="artifacts">
+      <p class="names">Starting rs.799 | scooters &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Starting rs.1599 | Slides</p>
+      <br>
+     <img class="p" src="r2b4p3.jpg" alt="Storage">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <img class="p" src="r2b4p4.jpg" alt="Light">
+     <p class="names">starting rs.599 | playing tents     Starting rs.1599 |Electric ride-ons </p>
+     <p><a class="p" href="#">Explore all</a></p>
+
+     
+   </div>
+ </div>
+ 
+
+ <div class="container3">
+   <div class="cont3">box</div>
+ </div>
+</body>
+</html>
